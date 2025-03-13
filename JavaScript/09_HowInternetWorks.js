@@ -7,9 +7,9 @@
 //                     and the path to the resource (e.g., /search).
 //
 //    2. Domain Name Resolution: The browser checks its cache to see if it has the IP address corresponding to
-//                              the domain name. If the IP address is not found in the cache, the browser sends a
-//                              DNS (Domain Name System) request to a DNS server to resolve the domain name to an
-//                              IP address.
+//                               the domain name. If the IP address is not found in the cache, the browser sends a
+//                               DNS (Domain Name System) request to a DNS server to resolve the domain name to an
+//                               IP address.
 //
 //    3. Establishing a TCP Connection: Once the browser has the IP address of the server, it establishes a TCP
 //                                     (Transmission Control Protocol) connection with the server. TCP is a
@@ -26,8 +26,8 @@
 //                               server-side code, or perform other tasks to generate the response.
 //
 //    6. Sending an HTTP Response: After processing the request, the server sends an HTTP response back to the browser.
-//                                  The response includes an HTTP status code (e.g., 200 for success, 404 for not found),
-//                                  headers, and the response data (e.g., HTML content, image data).
+//                                 The response includes an HTTP status code (e.g., 200 for success, 404 for not found),
+//                                 headers, and the response data (e.g., HTML content, image data).
 //
 //    7. Rendering the Web Page: The browser receives the HTTP response and begins rendering the web page. It parses the
 //                               HTML content, fetches additional resources like CSS and JavaScript files, and renders
