@@ -9,7 +9,7 @@
 //    2. Domain Name Resolution: The browser checks its cache to see if it has the IP address corresponding to
 //                               the domain name. If the IP address is not found in the cache, the browser sends a
 //                               DNS (Domain Name System) request to a DNS server to resolve the domain name to an
-//                               IP address.
+//                               IP address. The DNS server then returns the IP address to the browser.
 //
 //    3. Establishing a TCP Connection: Once the browser has the IP address of the server, it establishes a TCP
 //                                     (Transmission Control Protocol) connection with the server. TCP is a
