@@ -2,9 +2,8 @@
 // flow through the DOM hierarchy.
 
 // 1. Event Capturing (Trickling Phase):
-// Event capturing is the first phase of event propagation. In this phase, the event is captured by the outermost
-// element and propagated to the innermost element. It starts from the window object and goes down to the target
-// element. The event capturing phase is also known as the trickling phase.
+// In this phase, the event is captured by the outermost element and propagated to the innermost element. It starts from
+// the window object and goes down to the target element. The event capturing phase is also known as the trickling phase.
 
 // Example:
 
@@ -32,9 +31,8 @@
 
 
 // 2. Event Bubbling (Bubbling Phase):
-// Event bubbling is the second phase of event propagation. In this phase, the event is captured by the innermost
-// element and propagated to the outermost element. It starts from the target element and goes up to the window object.
-// The event bubbling phase is also known as the bubbling phase.
+// In this phase, the event is captured by the innermost element and propagated to the outermost element. It starts from
+// the target element and goes up to the window object. The event bubbling phase is also known as the bubbling phase.
 
 // Example:
 
