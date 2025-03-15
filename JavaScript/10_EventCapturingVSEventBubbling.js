@@ -16,7 +16,7 @@
     document.getElementById("parent").addEventListener(
         "click",
         () => console.log("Parent element clicked"),
-        true // Set to true for capturing phase
+        true   // set to true for capturing phase
     );
 
     document.getElementById("child").addEventListener(
